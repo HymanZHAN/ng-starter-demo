@@ -1,4 +1,4 @@
-# Angular Starter Demo (comparing Vue 3 w/ Vite)
+# Angular Starter Demo (feat. Vue 3 w/ Vite)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0. Install dependencies by `pnpm i`.
 
