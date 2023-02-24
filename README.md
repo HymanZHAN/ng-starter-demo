@@ -12,6 +12,11 @@ The reference Vue 3 + Vite project can be found [here](https://github.com/HymanZ
 
 ## Comparison
 
+|         | JS (uncompressed) | JS (compressed, brotli) |
+| ------- | ----------------: | ----------------------: |
+| Angular |         `76.1 kB` |                `268 kB` |
+| Vue     |         `84.8 kB` |               `30.4 kB` |
+
 ### Lighthouse
 
 _More details can be found in the [lighthouse](./lighthouse/) folder_
