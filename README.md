@@ -16,13 +16,22 @@ The reference Vue 3 + Vite project can be found [here](https://github.com/HymanZ
 
 _More details can be found in the [lighthouse](./lighthouse/) folder_
 
-![angular js treemap](./screenshots/lighthouse-angular.png)
+#### Angular
 
-![vue js treemap](./screenshots/lighthouse-vue.png)
+![angular lighthouse result](./screenshots/lighthouse-angular.png)
+
+#### Vue
+
+![vue lighthouse result](./screenshots/lighthouse-vue.png)
 
 ### Treemap
 
 _Unused amount of JavaScript_
 
+#### Angular
+
 ![angular js tree map](./screenshots/js-treemap-angular.png)
+
+#### Vue
+
 ![vue js tree map](./screenshots/js-treemap-vue.png)
