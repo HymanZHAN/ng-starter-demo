@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0. Install dependencies by `pnpm i`.
 
-The project is a dumb one-to-one copy of the Vue 3 starter project created by `npm init vue@latest`, with a slight tweak of CSS styling and the text. For fun and for curiosity.
+The project is a dumb one-to-one copy of the Vue 3 starter project created by `npm init vue@latest`, with a slight tweak of CSS styling and the text. Built for fun and for curiosity.
 
 ## Build
 
