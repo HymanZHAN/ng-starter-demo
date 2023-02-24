@@ -1,6 +1,8 @@
 # Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0. Install dependencies by `pnpm i`.
+
+The project is a dumb one-to-one copy of the Vue 3 starter project created by `npm init vue@latest`, with a slight tweak of CSS styling and text content.
 
 ## Development server
 
@@ -13,6 +15,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+If you have `brotli` installed on your system, you can run `npm run build:brotli` to build and compress your build artifacts in one go, after which you can run `npm run serve:prod` to serve it locally.
 
 ## Running unit tests
 

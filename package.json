@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:sourcemap": "ng build --source-map --named-chunks",
-    "build:brotli": "ng build && brotli dist/*.* -Z"
+    "build:brotli": "ng build && brotli dist/*.* -Z",
+    "serve:prod": "http-server ./dist -b"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +30,7 @@
     "@angular/cli": "~15.2.0",
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
+    "http-server": "^14.1.1",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
