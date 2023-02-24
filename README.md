@@ -1,31 +1,28 @@
-# Demo
+# Angular Starter Demo (comparing Vue 3 w/ Vite)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0. Install dependencies by `pnpm i`.
 
-The project is a dumb one-to-one copy of the Vue 3 starter project created by `npm init vue@latest`, with a slight tweak of CSS styling and text content.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The project is a dumb one-to-one copy of the Vue 3 starter project created by `npm init vue@latest`, with a slight tweak of CSS styling and the text. For fun and for curiosity.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 If you have `brotli` installed on your system, you can run `npm run build:brotli` to build and compress your build artifacts in one go, after which you can run `npm run serve:prod` to serve it locally.
 
-## Running unit tests
+The reference Vue 3 + Vite project can be found [here](https://github.com/HymanZHAN/vue3-starter-demo).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Comparison
 
-## Running end-to-end tests
+### Lighthouse
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+_More details can be found in the [lighthouse](./lighthouse/) folder_
 
-## Further help
+![angular js treemap](./screenshots/lighthouse-angular.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![vue js treemap](./screenshots/lighthouse-vue.png)
+
+### Treemap
+
+_Unused amount of JavaScript_
+
+![angular js tree map](./screenshots/js-treemap-angular.png)
+![vue js tree map](./screenshots/js-treemap-vue.png)
