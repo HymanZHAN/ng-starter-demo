@@ -10,8 +10,7 @@ import { CommonModule } from '@angular/common';
       <h1 class="green">{{ msg }}</h1>
       <h3>
         You’ve successfully created a project with
-        <a href="https://angular.io" target="_blank" rel="noopener">Angular</a>. What's
-        next?
+        <a href="https://angular.io" target="_blank" rel="noopener">Angular</a>. What's next?
       </h3>
     </div>
   `,
