@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 export const routes: Routes = [
   {
     path: 'about',
-    loadComponent: () => import('./about/about.component').then((c) => c.AboutComponent),
+    loadComponent: () => import('./about/about.component'),
   },
   {
     path: '',
